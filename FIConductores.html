@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Propietarios</title>
+</head>
+<body>
+    <h1>Ingrese los datos correspondientes</h1>
+    <form name="form" action="IConductores.php" method="POST">
+        <p>
+            <label for="IdConductores">ID Conductores</label>
+            <input name="IdConductores" id="IdConductores" disabled="disabled" type="text">
+        </p>
+        <p>
+            <label for="RFC">RFC</label>
+            <input name="RFC" id="RFC" type="text">
+        </p>
+        <p>
+            <label for="Firma">Firma</label>
+            <input name="Firma" id="Firma" type="text">
+        </p>
+        <p>
+            <label for="Foto">Foto</label>
+            <input name="Foto" id="Foto" type="text">
+        </p>
+        <p>
+            <label for="Edad">Edad</label>
+            <input name="Edad" id="Edad" type="text">
+        </p>
+        <p>
+            <label for="Direccion">Dirección</label>
+            <input name="Direccion" id="Direccion" type="text">
+        </p>
+        <p>
+            <label for="FechaNacimiento">Fecha de Nacimiento</label>
+            <input name="FechaNacimiento" id="FechaNacimiento" type="date">
+        </p>
+        <p>
+            <label for="Donador">¿Es Donador?</label>
+            <!-- <input name="Donador" id="Donador" type="text"> -->
+            <select name="Donador" id="Donador">
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>
+        </p>
+        <p>
+            <label for="CURP">CURP</label>
+            <input name="CURP" id="CURP" type="text">
+        </p>
+        <p>
+            <label for="Genero">Género</label>
+            <!-- <input name="Genero" id="Genero" type="text"> -->
+            <select name="Genero" id="Genero">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
+        </p>
+        
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

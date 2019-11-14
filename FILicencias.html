@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Propietarios</title>
+</head>
+<body>
+    <h1>Ingrese los datos correspondientes</h1>
+    <form name="form" action="ILicencias.php" method="POST">
+        <p>
+            <label for="IdLicencia">ID de Licencia</label>
+            <input name="IdLicencia" id="IdLicencia" disabled="disabled" type="text">
+        </p>
+        <p>
+            <label for="FechaExpedicion">Fecha de Expedición</label>
+            <input name="FechaExpedicion" id="FechaExpedicion" type="date">
+        </p>
+        <p>
+            <label for="Antiguedad">Antigüedad</label>
+            <input name="Antiguedad" id="Antiguedad" type="text">
+        </p>
+        <p>
+            <label for="Vigencia">Vigencia</label>
+            <input name="Vigencia" id="Vigencia" type="date">
+        </p>
+        <p>
+            <label for="LugarExpedicion">Lugar de Expedición</label>
+            <!-- <input name="LugarExpedicio" id="LugarExpedicio" type="text"> -->
+            <select name="LugarExpedicion" id="LugarExpedicion">
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="BajaCalifornia">Baja California</option>
+                <option value="BajaCaliforniaSur">Baja California Sur</option>
+                <option value="Campeche">Campeche</option>
+                <option value="Chiapas">Chiapas</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Coahuila">Coahuila</option>
+                <option value="Colima">Colima</option>
+                <option value="DistritoFederal">Distrito Federal</option>
+                <option value="Durango">Durango</option>
+                <option value="EstadoDeMéxico">Estado de México</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Hidalgo">Hidalgo</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="Michoacán">Michoacán</option>
+                <option value="Morelos">Morelos</option>
+                <option value="Nayarit">Nayarit</option>
+                <option value="NuevoLeón">Nuevo León</option>
+                <option value="Oaxaca">Oaxaca</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Querétaro">Querétaro</option>
+                <option value="QuintanaRoo">Quintana Roo</option>
+                <option value="SanLuisPotosí">San Luis Potosí</option>
+                <option value="Sinaloa">Sinaloa</option>
+                <option value="Sonora">Sonora</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Tamaulipas">Tamaulipas</option>
+                <option value="Tlaxcala">Tlaxcala</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Yucatán">Yucatán</option>
+                <option value="Zacatecas">Zacatecas</option>
+            </select>
+        </p>
+        <p>
+            <label for="Restriccion">Restricción</label>
+            <input name="Restriccion" id="Restriccion" type="text">
+        </p>
+        <p>
+            <label for="IdConductor">ID de Conductor</label>
+            <input name="IdConductor" id="IdConductor" type="text">
+        </p>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

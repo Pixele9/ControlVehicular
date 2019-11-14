@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Propietarios</title>
+</head>
+<body>
+    <h1>Ingrese los datos correspondientes</h1>
+    <!-- Action indica la accion que quiero que tome al enviar info en el form -->
+    <form name="form" method="post" action="UPropietarios.php">
+        <p>
+            <label for="IdPropietario">ID Propietario</label>
+            <input name="IdPropietario" id="IdPropietario" type="text">
+        </p>
+        <p>
+            <label for="CURP">CURP</label>
+            <input name="CURP" id="CURP" type="text">
+        </p>
+        <p>
+            <label for="RFC">RFC</label>
+            <input name="RFC" id="RFC" type="text">
+        </p>
+        <p>
+            <label for="Nombre">Nombre</label>
+            <input name="Nombre" id="Nombre" type="text">
+        </p>
+        <p>
+            <label for="Direccion">Dirección</label>
+            <input name="Direccion" id="Direccion" type="text">
+        </p>
+        <p>
+            <label for="FechaNacimiento">Fecha de Nacimiento</label>
+            <input name="FechaNacimiento" id="FechaNacimiento" type="date">
+        </p>
+        <p>
+            <label for="TipoPersona">Tipo de Persona</label>
+            <!-- <input name="TipoPersona" id="TipoPersona" type="text"> -->
+            <select name="TipoPersona" id="TipoPersona">
+                <option value="moral">Moral</option>
+                <option value="fisica">Física</option>
+            </select>
+        </p>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

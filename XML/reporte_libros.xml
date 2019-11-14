@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<propietarios>
+  <propietario id="5">
+    <nombre>AD</nombre>
+    <precio>$400</precio>
+  </propietario>
+  <propietario id="6">
+    <nombre>Melisa</nombre>
+    <precio>$400</precio>
+  </propietario>
+  <propietario id="7">
+    <nombre>Melisa</nombre>
+    <precio>$400</precio>
+  </propietario>
+  <propietario id="8">
+    <nombre>Isabel</nombre>
+    <precio>$400</precio>
+  </propietario>
+</propietarios>

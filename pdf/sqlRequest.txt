@@ -1,0 +1,4 @@
+SELECT  L.IdLicencia, C.Nombre, C.FechaNacimiento, L.FechaExpedicion 
+	FROM Licencias L, Conductores C 
+    WHERE L.IdConductor = C.IdConductores
+    AND L.IdLicencia = 3;

@@ -1,0 +1,16 @@
+Nombre: Mariana
+Semestre: 8
+N/As: 0
+
+Nombre: Andres
+Semestre: 3
+N/As: 0
+
+Nombre: Pedro
+Semestre: 7
+N/As: 0
+
+Nombre: Cesar
+Semestre: 3
+N/As: 0
+

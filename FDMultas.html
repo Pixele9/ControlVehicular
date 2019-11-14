@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FDMultas</title>
+</head>
+<body>
+    <h1>Eliminación de Multas</h1>
+    <form name="form" action="DMultas.php" method="POST">
+        <label for="Multa">Multa a eliminar: </label>
+        <input type="text" name="Multa">
+        <input type="submit" value="Eliminar Multa" onclick="return IsEmpty()">
+    </form>
+</body>
+<script>
+    function IsEmpty() {
+        var nom = document.forms["form"].Multa.value;
+        if (nom === "") {
+            alert("Por favor ingrese una multa válida");
+            return false;
+        }
+        return true;
+    }
+</script>
+</html>

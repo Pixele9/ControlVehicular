@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FDVehiculos</title>
+</head>
+<body>
+    <h1>Eliminación de Vehiculos</h1>
+    <form name="form" action="DVehiculos.php" method="POST">
+        <label for="Vehiculo">Vehiculo a eliminar: </label>
+        <input type="text" name="Vehiculo">
+        <input type="submit" value="Eliminar Vehiculo" onclick="return IsEmpty()">
+    </form>
+</body>
+<script>
+    function IsEmpty() {
+        var nom = document.forms["form"].Vehiculo.value;
+        if (nom === "") {
+            alert("Por favor ingrese una Vehiculo válida");
+            return false;
+        }
+        return true;
+    }
+</script>
+</html>

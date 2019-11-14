@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Propietarios</title>
+</head>
+<body>
+    <h1>Ingrese los datos correspondientes</h1>
+    <form name="form" method="POST" action="UVerificaciones.php">
+        <p>
+            <label for="Folio">Folio</label>
+            <input name="Folio" id="Folio" type="text">
+        </p>
+        <p>
+            <label for="Tipo">Tipo</label>
+            <!-- <input name="Tipo" id="Tipo" type="text"> -->
+            <select name="Tipo" id="Tipo">
+                <option value="Excento">Excento</option>
+                <option value="00">00</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="Foraneo">Foráneo</option>
+            </select>
+        </p>
+        <p>
+            <label for="Vigencia">Vigencia</label>
+            <input name="Vigencia" id="Vigencia" type="date">
+        </p>
+        <p>
+            <label for="Dictamen">Dictamen</label>
+            <input name="Dictamen" id="Dictamen" type="text">
+        </p>
+        <p>
+            <label for="IdVehiculo">ID de Vehículo</label>
+            <input name="IdVehiculo" id="IdVehiculo" type="text">
+        </p>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FDUsuarios</title>
+</head>
+<body>
+    <h1>Eliminación de Usuario</h1>
+    <form name="form" action="DUsuarios.php" method="GET">
+        <label for="Usuario">Usuario a eliminar: </label>
+        <input type="text" name="Usuario">
+        <input type="submit" value="Eliminar usuario" onclick="return IsEmpty()">
+    </form>
+</body>
+<script>
+    function IsEmpty() {
+        var nom = document.forms["form"].Usuario.value;
+        if (nom === "") {
+            alert("Por favor ingrese un usuario");
+            return false;
+        }
+        return true;
+    }
+</script>
+</html>

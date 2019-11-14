@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FCPropietarios</title>
+</head>
+<body>
+    <form action="CConductores.php" method="POST">
+        <label for="">
+            Criterio: <input type="text" value="" name="Criterio" id=""><br><br>
+        </label>
+        <input type="submit" value="Consultar" onclick="return IsEmpty()">
+    </form>
+</body>
+<script>
+    function IsEmpty() {
+        var nom = document.forms["form"].Criterio.value;
+        if (nom === "") {
+            alert("Por favor ingrese un conductor válido");
+            return false;
+        }
+        return true;
+    }
+</script>
+</html>

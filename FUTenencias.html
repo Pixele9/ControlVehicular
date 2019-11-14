@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Propietarios</title>
+</head>
+<body>
+    <h1>Ingrese los datos correspondientes</h1>
+    <form name="form" action="UTenencias.php" method="POST">
+        <p>
+            <label for="IdTenencia">ID de Tenencia</label>
+            <input name="IdTenencia" id="IdTenencia" type="text">
+        </p>
+        <p>
+            <label for="Monto">Monto</label>
+            <input name="Monto" id="Monto" type="number">
+        </p>
+        <p>
+            <label for="AnioTenencia">Año de Tenencia</label>
+            <input name="AnioTenencia" id="AnioTenencia" type="number" max="2019">
+        </p>
+        <p>
+            <label for="Descuento">Descuento</label>
+            <input name="Descuento" id="Descuento" type="number">
+        </p>
+        <p>
+            <label for="IdVehiculos">ID de Vehículo</label>
+            <input name="IdVehiculos" id="IdVehiculos" type="text">
+        </p>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

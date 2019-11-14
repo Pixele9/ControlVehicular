@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FCPropietarios</title>
+</head>
+<body>
+    <form action="CPropietarios.php" method="POST">
+        <label for="">
+            Criterio: <input type="text" value="" name="Criterio" id=""><br><br>
+        </label>
+        <label for="">
+            ID: <input type="radio" name="Atributo" value="ID">
+        </label><br>
+        <label for="">
+            Nombre: <input type="radio" name="Atributo" value="Nombre">
+        </label><br>
+        <label for="">
+            RFC: <input type="radio" name="Atributo" value="RFC">
+        </label><br>
+        <label for="">
+            Dirección: <input type="radio" name="Atributo" value="Direccion">
+        </label><br>
+        <label for="">
+            CURP: <input type="radio" name="Atributo" value="CURP">
+        </label><br><br>
+        <input type="submit" value="Consultar" onclick="return IsEmpty()">
+    </form>
+</body>
+<script>
+    function IsEmpty() {
+        var nom = document.forms["form"].Criterio.value;
+        if (nom === "") {
+            alert("Por favor ingrese un conductor válido");
+            return false;
+        }
+        return true;
+    }
+</script>
+</html>

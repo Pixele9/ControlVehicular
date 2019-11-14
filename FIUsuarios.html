@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Propietarios</title>
+</head>
+<body>
+    <h1>Ingrese los datos correspondientes</h1>
+    <form name="form" method="GET" action="IUsuarios.php">
+        <p>
+            <label for="Usuario">Usuario</label>
+            <input name="Usuario" id="Usuario" type="text">
+        </p>
+        <p>
+            <label for="Contrasenia">Contraseña</label>
+            <input name="Contrasenia" id="Contrasenia" type="password">
+        </p>
+        <p>
+            <label for="Tipo">Tipo</label>
+            <!-- <input name="Tipo" id="Tipo" type="text"> -->
+            <select name="Tipo" id="Tipo">
+                <option value="Estandar">Estándar</option>
+                <option value="Admin">Admin</option>
+            </select>
+        </p>
+        <p>
+            <label for="Estado">Estado</label>
+            <!-- <input name="Estado" id="Estado" type="text"> -->
+            <select name="Estado" id="Estado">
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="BajaCalifornia">Baja California</option>
+                <option value="BajaCaliforniaSur">Baja California Sur</option>
+                <option value="Campeche">Campeche</option>
+                <option value="Chiapas">Chiapas</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Coahuila">Coahuila</option>
+                <option value="Colima">Colima</option>
+                <option value="DistritoFederal">Distrito Federal</option>
+                <option value="Durango">Durango</option>
+                <option value="EstadoDeMéxico">Estado de México</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Hidalgo">Hidalgo</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="Michoacán">Michoacán</option>
+                <option value="Morelos">Morelos</option>
+                <option value="Nayarit">Nayarit</option>
+                <option value="NuevoLeón">Nuevo León</option>
+                <option value="Oaxaca">Oaxaca</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Querétaro">Querétaro</option>
+                <option value="QuintanaRoo">Quintana Roo</option>
+                <option value="SanLuisPotosí">San Luis Potosí</option>
+                <option value="Sinaloa">Sinaloa</option>
+                <option value="Sonora">Sonora</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Tamaulipas">Tamaulipas</option>
+                <option value="Tlaxcala">Tlaxcala</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Yucatán">Yucatán</option>
+                <option value="Zacatecas">Zacatecas</option>
+            </select>
+        </p>
+        <p>
+            <label for="Intento">Intento</label>
+            <input name="Intento" id="Intento" type="text">
+        </p>
+        <p>
+            <label for="Bloqueado">Bloqueado</label>
+            <input name="Bloqueado" id="Bloqueado" type="text">
+        </p>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

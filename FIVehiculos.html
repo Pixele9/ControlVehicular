@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Propietarios</title>
+</head>
+<body>
+    <h1>Ingrese los datos correspondientes</h1>
+    <form name="form" method="POST" action="IVehiculos.php">
+        <p>
+            <label for="IdVehiculos">ID Vehículos</label>
+            <input name="IdVehiculos" id="IdVehiculos" disabled="disabled" type="text">
+        </p>
+        <p>
+            <label for="NumSerie">Número de Serie</label>
+            <input name="NumSerie" id="NumSerie" type="text">
+        </p>
+        <p>
+            <label for="Placa">Placa</label>
+            <input name="Placa" id="Placa" type="text">
+        </p>
+        <p>
+            <label for="Motor">Motor</label>
+            <input name="Motor" id="Motor" type="text">
+        </p>
+        <p>
+            <label for="Factura">Factura</label>
+            <input name="Factura" id="Factura" type="text">
+        </p>
+        <p>
+            <label for="Version">Versión</label>
+            <input name="Version" id="Version" type="text">
+        </p>
+        <p>
+            <label for="Anio">Año</label>
+            <input name="Anio" id="Anio" type="number" min="1900" max="2019">
+        </p>
+        <p>
+            <label for="Color">Color</label>
+            <input name="Color" id="Color" type="text">
+        </p>
+        <p>
+            <label for="Modelo">Modelo</label>
+            <input name="Modelo" id="Modelo" type="text">
+        </p>
+        <p>
+            <label for="Origen">Origen</label>
+            <!-- <input name="Origen" id="Origen" type="text"> -->
+            <select name="Origen" id="Origen">
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="BajaCalifornia">Baja California</option>
+                <option value="BajaCaliforniaSur">Baja California Sur</option>
+                <option value="Campeche">Campeche</option>
+                <option value="Chiapas">Chiapas</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Coahuila">Coahuila</option>
+                <option value="Colima">Colima</option>
+                <option value="DistritoFederal">Distrito Federal</option>
+                <option value="Durango">Durango</option>
+                <option value="EstadoDeMéxico">Estado de México</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Hidalgo">Hidalgo</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="Michoacán">Michoacán</option>
+                <option value="Morelos">Morelos</option>
+                <option value="Nayarit">Nayarit</option>
+                <option value="NuevoLeón">Nuevo León</option>
+                <option value="Oaxaca">Oaxaca</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Querétaro">Querétaro</option>
+                <option value="QuintanaRoo">Quintana Roo</option>
+                <option value="SanLuisPotosí">San Luis Potosí</option>
+                <option value="Sinaloa">Sinaloa</option>
+                <option value="Sonora">Sonora</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Tamaulipas">Tamaulipas</option>
+                <option value="Tlaxcala">Tlaxcala</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Yucatán">Yucatán</option>
+                <option value="Zacatecas">Zacatecas</option>
+            </select>
+        </p>
+        <p>
+            <label for="NumPuertas">Número de Puertas</label>
+            <input name="NumPuertas" id="NumPuertas" type="number" min="3" max="5">
+        </p>
+        <p>
+            <label for="TipoCombustible">Tipo de Combustible</label>
+            <!-- <input name="TipoCombustible" id="TipoCombustible" type="text"> -->
+            <select name="TipoCombustible" id="TipoCombustible">
+                <option value="Gasolina">Gasolina</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Electrico">Eléctrico</option>
+            </select>
+        </p>
+        <p>
+            <label for="Cilindraje">Cilindraje</label>
+            <input name="Cilindraje" id="Cilindraje" type="number" min="1" max="12">
+        </p>
+        <p>
+            <label for="IdPropietario">ID Propietario</label>
+            <input name="IdPropietario" id="IdPropietario" type="text">
+        </p>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

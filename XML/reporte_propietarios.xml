@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<propietarios>
+  <propietario id="5">
+    <nombre>AD</nombre>
+    <rfc>qwerty</rfc>
+    <curp>qwe5y</curp>
+  </propietario>
+  <propietario id="6">
+    <nombre>Melisa</nombre>
+    <rfc>f3442rv1g</rfc>
+    <curp>4534t2j4t1j4f</curp>
+  </propietario>
+  <propietario id="7">
+    <nombre>Melisa</nombre>
+    <rfc>cnrvnk2fi2f3r</rfc>
+    <curp>h2if2nefnefk</curp>
+  </propietario>
+  <propietario id="8">
+    <nombre>Isabel</nombre>
+    <rfc>asdfghjkl</rfc>
+    <curp>asdgjk</curp>
+  </propietario>
+</propietarios>

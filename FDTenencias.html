@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FDTenencias</title>
+</head>
+<body>
+    <h1>Eliminación de Tenencias</h1>
+    <form name="form" action="DTenencias.php" method="POST">
+        <label for="Tenencia">Tenencia a eliminar: </label>
+        <input type="text" name="Tenencia">
+        <input type="submit" value="Eliminar Tenencia" onclick="return IsEmpty()">
+    </form>
+</body>
+<script>
+    function IsEmpty() {
+        var nom = document.forms["form"].Tenencia.value;
+        if (nom === "") {
+            alert("Por favor ingrese una tenencia válida");
+            return false;
+        }
+        return true;
+    }
+</script>
+</html>
